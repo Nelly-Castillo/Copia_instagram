@@ -1,0 +1,255 @@
+@media screen and (max-width:1440px) {
+    .contenidonav{
+        width: 1500px;
+    }
+    .cajaexterior{
+        margin-top: 4px;
+    }
+}
+@media screen and (max-width:1280px) {
+    .contenidonav{
+        width: 1500px;
+    }
+    
+}
+@media screen and (max-width:1024px) {
+    .contenidonav{
+        width: 1500px;
+    }
+    .img{
+        margin-left: 30px;
+    }
+    .cajaexterior{
+        height: 30px;
+        width: 250px;
+        margin-left: 70px;
+    }
+    .items{
+        margin-left: 40px;
+    }
+}
+@media screen and (max-width:800px) {
+    .contenidonav{
+        width: 100%;
+    }
+    .cajaexterior{
+        height: 30px;
+        width: 220px;
+        margin-left: -30px;
+    }
+    .busqueda{
+        display: flex;
+        align-items: center;
+        align-content: center;
+    }
+    .cajabjsqueda{
+        display: flex;
+        align-items: center;
+        align-content: center;
+    }
+    .imagenbutton{
+        display: flex;
+        width: 20px;
+        height: 20px;
+    }
+    .items{
+        margin-left: 40px;
+    }
+    .icon{
+        margin-left: 9px;
+    }
+    .fotoperfil{
+        margin-left: 9px;
+    }
+}
+@media screen and (max-width:768px) {
+    .contenidonav{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width:600px) {
+    .contenidonav{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width:480px) {
+    .contenidonav{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width:320px) {
+    .contenidonav{
+        width: 300px;
+    }
+    .cajaexterior{
+        height: 30px;
+        width: 220px;
+        margin-left: 30px;
+    }
+    .busqueda{
+        display: flex;
+        align-items: center;
+        align-content: center;
+    }
+    .cajabjsqueda{
+        display: flex;
+        align-items: center;
+        align-content: center;
+    }
+    .imagenbutton{
+        display: flex;
+        width: 20px;
+        height: 20px;
+    }
+    .items{
+        margin-left: 10px;
+    }
+    .icon{
+        margin-left: 2px;
+    }
+    .fotoperfil{
+        margin-left: 2px;
+    }
+}
+@media screen and (max-width: 1440px) {
+    .cajaexterior {
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .icon {
+        margin-left: 4px;
+    }
+    .fotoperfil{
+        margin-left: 4px;
+    }
+}
+@media screen and (max-width: 1440px) {
+    .columna1 {
+        width: 650px;
+        padding-top: 30px;
+        padding-left: 100px;
+    }
+}
+@media screen and (max-width: 1440px) {
+    .historias{
+        width: 533.64px;
+    }
+}
+@media screen and (max-width: 1440px) {
+    .historia{
+        width: 12%;
+    }
+}
+@media screen and (max-width: 1440px) {
+    .perfiles{
+        width: 533.64px;
+        margin-bottom: 40px;
+    }
+}
+@media screen and (max-width: 1440px) {
+    .opcion{
+        margin-left: 30px;
+    }
+}
+@media screen and (max-width: 1440px) {
+    .cajafotopost{
+        width: 501.13px;
+        height: 500px;
+    }
+    .fotopost{
+        width: 533px;
+        height: 500px;
+    }
+
+}
+@media screen and (max-width: 1440px) {
+    .items2{
+        width: 533.63px;
+    }
+}
+@media screen and (max-width: 1440px) {
+    .cajaitems2marcador {
+        margin-left: 340px;
+    }
+}
+@media screen and (max-width: 1440px) {
+    .comentarios{
+        width: 533.63px;
+    }
+}
+@media screen and (max-width: 1440px) {
+    .columna2{
+       background-color: none;
+    }
+    .miperfil{
+        display: none;
+    }
+    .cajasugerencias{
+        display: none;
+    }
+    .cajaprueba{
+        display: none;
+    }
+}
+@media screen and (max-width: 768px) {
+    .columna2{
+        background-color: none;
+     }
+     .miperfil{
+         display: none;
+     }
+     .cajasugerencias{
+         display: none;
+     }
+     .cajaprueba{
+         display: none;
+     }
+}
+@media screen and (max-width: 600px) {
+    .columna2{
+       display: none
+       ;
+     }
+     .miperfil{
+         display: none;
+     }
+     .cajasugerencias{
+         display: none;
+     }
+     .cajaprueba{
+         display: none;
+     }
+}
+@media screen and (max-width: 480px) {
+    .columna2{
+        background-color: none;
+     }
+     .miperfil{
+         display: none;
+     }
+     .cajasugerencias{
+         display: none;
+     }
+     .cajaprueba{
+         display: none;
+     }
+}
+@media screen and (max-width: 320px) {
+    .columna2{
+        background-color: none;
+     }
+     .miperfil{
+         display: none;
+     }
+     .cajasugerencias{
+         display: none;
+     }
+     .cajaprueba{
+         display: none;
+     }
+}

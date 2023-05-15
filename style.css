@@ -1,0 +1,511 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+}
+
+.navegacion {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+}
+
+.contenidonav {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-count: 3;
+    position: fixed;
+    justify-content: center;
+    padding-top: 3px;
+    position: sticky;
+    border-bottom: 1px solid #dfdfdf;
+    background-color: rgb(255, 255, 255);
+}
+
+.img {
+    height: 38px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.cajaexterior {
+    display: flex;
+    padding: 0 16px;
+    background-color: rgb(239, 239, 239);
+    justify-content: center;
+    align-items: center;
+    width: 268px;
+    height: 40px;
+    margin-left: 200px;
+    margin-top: 5px;
+    border-radius: 8px;
+}
+.cajabuscador {
+    width: 246px;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1px 1px;
+    column-count: 2;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+}
+.busqueda {
+    width: 25px;
+    height: 25px;
+    border: none;
+}
+button {
+    border: none;
+    background-color: none;
+}
+.imagenbutton {
+    width: 24px;
+    height: 24px;
+    justify-content: center;
+    align-content: center;
+}
+.buscador {
+    width: 150px;
+    height: 25px;
+    background-color: rgb(239, 239, 239);
+    margin-left: 2px;
+    display: inline;
+    justify-content: center;
+    align-self: center;
+    border: none;
+    font-size: 15px;
+}
+.items {
+    height: 28px;
+    position: relative;
+    margin-left: 100px;
+}
+.far {
+    height: 100%;
+}
+
+.icon {
+    height: 100%;
+    cursor: pointer;
+    margin-left: 5px;
+    display: inline-block;
+    background-color: none;
+}
+.fotoperfil{
+    border-radius: 50%;
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    margin-left: 5px;
+}
+.cuerpo {
+    width: 100%;
+    max-height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.columna1 {
+    width: 1170.50px;
+    padding-left:350px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.historias {
+    width: 533.64px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #dfdfdf;
+    padding: 16px 0;
+    display: flex;
+    border-radius: 5px;
+    overflow: hidden;
+    overflow-x: auto;
+}
+.historias::-webkit-scrollbar{
+    display: none;
+}
+.historia {
+    width: 17%;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin: 0 5px;
+    margin-left: 16px;
+}
+.persona {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 4px;
+    background: linear-gradient(45deg, rgb(255, 201, 0) 13%, rgb(255, 0, 95) 73%, rgb(255, 9, 237)100%);
+}
+.nombre {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 5px;
+    color: #262626;
+    font-weight: bold;
+}
+.imagenhistorias {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.nombre {
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.nombreuser {
+    text-align: center;
+    cursor: pointer;
+}
+.perfiles {
+    width: 533.64px;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #dfdfdf;
+    margin-top: 40px;
+    padding-top: 16px;
+    display: flex;
+    border-radius: 5px;
+    flex-direction: column;
+    margin-bottom: 140px;
+}
+.titulo {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    align-items: center;
+}
+.infoperfil{
+    cursor: pointer;
+    display: flex;
+    column-count: 3;
+
+}
+.imagenpost{
+    width: 42px;
+    height: 42px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.post {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+.cajausername{
+    width: 368px;
+    height: 40px;
+    font-weight: bold;
+    color: black;
+    font-size: 14px;
+    margin-left: 10px;
+    display: flex;
+    text-align: center;
+    align-content: center;
+    vertical-align: middle;
+}
+.username{
+    width: 348px;
+    height: 15px;
+    margin-top: 13px;
+    display: flex;
+    align-items: center;
+}
+.opcion{
+    width: 40px;
+    height: 40px;
+    align-content: center;
+    margin-left: 40px;
+}
+.puntos{
+    background-color:  rgb(255, 255, 255);
+    border: none;
+    width: 30px;
+    height: 30px;
+    padding: 8px;
+}
+.imagenpuntos{
+    width: 24px;
+    height: 24px;
+}
+.cajafotopost{
+    width: 533.64px;
+    height: 600px;
+}
+.fotopost{
+    width: 533px;
+    height: 600px;
+}
+.items2{
+    background-color: rgb(255, 255, 255);
+    padding-left: 5px;
+    padding-right: 5px;
+    border-left: 1px solid #dfdfdf;
+    border-right: 1px solid #dfdfdf;
+}
+.cajaitems2{
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    display: inline-block;
+}
+.cajaitems2marcador{
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    padding: 8px;
+    margin-left: 340px;
+}
+.iconos{
+    width: 24px;
+    height: 24px;
+    background-color: rgb(255, 255, 255);
+}
+.tiempo{
+    width: 531.64px;
+    height: 43px;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    margin-left: 3px;
+    border-left: 1px solid #dfdfdf;
+    border-right: 1px solid #dfdfdf;
+}
+.fecha{
+    border: none;
+}
+.comentarios{
+    background-color: rgb(255, 255, 255);
+    border-top: 1px solid #e3e3e3;
+    border-bottom: 1px solid #dfdfdf;
+    border-right: 1px solid #dfdfdf;
+    border-left: 1px solid #dfdfdf;
+    display: flex;
+    padding-left: 4px;
+    padding-right: 4px;
+    
+}
+.carafeliz{
+    background-color: rgb(255, 255, 255);
+    display: inline-flex;
+    justify-content: center;
+}
+.cajadecomentarios{
+    background-color: rgb(255, 255, 255);
+    display: inline-flex;
+    justify-content: center;
+    padding-left: 5px;
+}
+.cajacomentarios{
+    border: none;
+    color: gray;
+    display: inline-flex;
+}
+.botondepublicar{
+    background-color: rgb(255, 255, 255);
+    display: inline-flex;
+    justify-content: center;
+    padding: 5px;
+    padding-left: 250px;
+}
+.cajapublicar{
+    background-color: rgb(255, 255, 255);
+    padding: 4px;
+}
+.cajapublicar:hover{
+    opacity: 50%;
+}
+.publicar{
+    color: #0095f6;
+    border: none;
+}
+.columna2{
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    margin-left: -250px;
+    width: 330px;
+}
+.columna2parte1{
+    display: flex;
+    width: 330px;
+    height: 66px;
+}
+.miperfil{
+    width: 320px;
+    height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.cajafotoperfil{
+   width: 65px;
+   height: 65px;
+   margin-right: 10px;
+}
+.fotoperfil2{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+.cajausuarios{
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    color: #262626;
+}
+.usuario{
+    width: 191.58px;
+    height: 18px;
+    display: flex;
+    padding: 2px;
+    font-weight: bold;
+}
+.nombrepersona{
+    width: 191.58px;
+    height: 18px;
+    display: flex;
+    padding: 2px;
+    color: #838383;  
+}
+.cajadeboton{
+    display: flex;
+    padding: 2px;
+}
+.cajacambio{
+    display: flex;
+    padding: 2px;
+    color: #0095f6;
+}
+.cajacambio:hover{
+    opacity: 50%;
+}
+.cajasugerencias{
+    display: flex;
+    flex-direction: column;
+}
+.cajasugerencias{
+    display: flex;
+    flex-direction: row;
+    width: 320px;
+    height: 22px;
+    padding: 6px;
+    justify-content: center;
+    align-items: center;
+}
+.parte1{
+    display: flex;
+    flex-direction: row;
+    height: 22px;
+    color:  #838383;
+    font-weight: 900;
+}
+.botonvertodo{
+    display: flex;
+    height: 22px;
+    color:#262626;
+    font-weight: 200;
+    padding-left: 70px;
+    font-weight: bold;
+}
+.columna2parte2{
+    display: flex;
+}
+.cajaprueba{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+}
+.cajatodo{
+    width: 320px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9px;
+    margin-bottom: 2px;
+}
+.cajafoto{
+   width: 42px;
+   height: 42px;
+   margin-right: 10px;
+   display: flex;
+   align-content: center;
+   justify-content: center;
+   align-items: center;
+}
+.sugeridos{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+}
+.cajadenombre{
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    color: #262626;
+    font-size: small;
+}
+.nombredeusuario{
+    width: 191.58px;
+    height: 18px;
+    display: flex;
+    padding: 2px;
+    font-weight: bold;
+}
+.personasquelosiguen{
+    width: 191.58px;
+    height: 18px;
+    display: flex;
+    padding: 2px;
+    color: #838383;
+}
+.botonseguir{
+    display: flex;
+    padding: 2px;
+}
+.cajadeseguir{
+    display: flex;
+    padding: 2px;
+    color: #0095f6;
+}
+.cajadeseguir:hover{
+    opacity: 50%;
+}
